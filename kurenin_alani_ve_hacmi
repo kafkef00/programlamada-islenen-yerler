@@ -1,0 +1,14 @@
+#KÜRENİN ALANINI VE HACMİNİ BULMA
+
+#alan = 4 * pi* r kare
+#hacim = 4 / 3 * pi * r küp
+
+pi = 3.14
+
+r = int(input("yarıçap gir: "))
+
+alan = 4  * pi * pow(r, 2)
+hacim = (4/3) * pi * pow (r,3)
+
+print("alan: ",alan)
+print("hacim: ", hacim)
