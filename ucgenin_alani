@@ -1,0 +1,6 @@
+# ÜÇGENİN ALANINI BULMA
+
+taban = int(input("taban = "))
+yukseklik = int(input("yükseklik = "))
+
+print(taban*yukseklik/2)
