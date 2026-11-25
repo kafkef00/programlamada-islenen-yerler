@@ -1,0 +1,11 @@
+#PİSAGOR BULMA
+
+print("pisagor bulmaca")
+
+a = int(input("a değeri gir = "))
+b = int(input("b değeri gir = "))
+
+deger1= pow(a, 2)
+deger2= pow(b, 2)
+
+print(pow(deger1+deger2, 1/2)) # pow(taban değeri, üssü alınacak değer) , pow üs almana yarar. ÖRN pow(3,2) = 3ün karesi
