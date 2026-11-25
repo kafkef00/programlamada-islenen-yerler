@@ -4,3 +4,32 @@ taban = int(input("taban = "))
 yukseklik = int(input("yükseklik = "))
 
 print(taban*yukseklik/2)
+
+
+#ÜÇGENİN ALANI AMA 'WHİLE' İLE
+
+while True:
+    
+    devam = input("devam etmek için 'D' bas, çıkmak için 'Q' bas ")
+    if devam.lower() == "d":
+        pass
+    elif devam.lower() == "q":
+        break
+    else:
+        print("hatalı komut, tekrar dene ")
+        continue
+    
+    try:
+        taban = int(input("taban = "))
+        yukseklik = int(input("yükseklik = "))
+        print(taban*yukseklik/2)
+
+    except ValueError:
+        print("hatalı girdi, tekrar dene")
+        continue
+            
+
+
+
+
+   
